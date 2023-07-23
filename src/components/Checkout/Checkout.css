@@ -1,14 +1,12 @@
-.imgCarrito {
-    width: 4rem;
-
+.checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
 }
-.widgetCarrito{
-    margin-right: 40px;
-    border-radius: 100%;
-}
 
-.cantidad {
-    background-color: white;
-    border-radius: 50%;
-    padding: 0.3rem 0.5rem;
+.ultimoBoton {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
