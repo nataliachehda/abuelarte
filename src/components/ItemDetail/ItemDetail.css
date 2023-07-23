@@ -1,6 +1,5 @@
 .contenedorItem {
     text-align: center;
-    border: 1px solid #e3e1e1;
     border-radius: 30px;
     margin: 3rem;
     margin-left: 190px;
@@ -12,6 +11,11 @@
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 255, .2);
+    transition: all .2s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 .contenedorItem p{
     margin-right: 100px;
@@ -26,15 +30,25 @@ img {
     margin-bottom: 20px;
 }
 
-.tarjeta {
-    cursor: pointer;
-    background: rgb(255, 255, 255);
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 255, .2);
-    transition: all .2s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-}
-
 .tarjeta:hover {
     box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+}
+
+@media (max-width: 767px) {
+    .contenedorItem {
+      margin: 5px;
+      margin-left: 80px;
+      margin-right: 100px;
+      padding: 10px;
+    }
+    
+    img {
+      width: 200px;
+    }
+
+    .contenedorItem p {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
 }
