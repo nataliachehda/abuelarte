@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./footer.css"
+import "./Footer.css"
 import facebookIcon from '/@img/facebook.svg';
 import twitterIcon from '/@img/twitter.svg';
 import instagramIcon from '/@img/instagram.svg';
