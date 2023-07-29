@@ -1,0 +1,17 @@
+footer{
+    background-color: bisque;
+    color: black;
+  }
+  
+  .social-icons {
+      margin-top: 20px;
+    }
+    
+    .footerIndex {
+      width: 100%;
+    }
+  
+  .icono {
+      width: 30px;
+      height: auto;
+  }
